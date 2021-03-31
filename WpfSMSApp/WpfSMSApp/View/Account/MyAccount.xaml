@@ -44,7 +44,7 @@
         <StackPanel Grid.Row="0" Grid.Column="2" Grid.RowSpan="2">
             <Button x:Name="BtnEditMyAccount"
                     FontSize="14"
-                    Background="DarkSlateBlue" Foreground="White"
+                    Background="#B1D1A6" Foreground="White"
                     Content="계정정보 수정" Height="50" Margin="5, 10" Click="BtnEditMyAccount_Click">
             </Button>
         </StackPanel>

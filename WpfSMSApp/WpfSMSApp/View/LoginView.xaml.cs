@@ -51,7 +51,6 @@ namespace WpfSMSApp.View
                 TxtPassword.Focus();
         }
 
-
         private void TxtPassword_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
