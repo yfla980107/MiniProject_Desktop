@@ -70,7 +70,7 @@
                     Orientation="Horizontal" HorizontalAlignment="Right">
             <Button x:Name="BtnDeactive"
                     Height="50" Width="120" Content="비활성화" FontSize="14"
-                    Background="#FFC2DABC" Foreground="White"
+                    Background="#7D6394" Foreground="White"
                     Margin="10, 0" Click="BtnAdd_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -82,7 +82,7 @@
                 </Button.ContentTemplate>
             </Button>
             <Button x:Name="BtnBack"
-                    Background="#7EA285" Foreground="White"
+                    Background="#A091B7" Foreground="White"
                     Height="50" Width="120" Content="이전" FontSize="14" Click="BtnBack_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>

@@ -33,7 +33,7 @@
             <Button x:Name="BtnBooks"
                     Grid.Column="0"
                     Content="입고" FontSize="16"
-                    Foreground="White" Background="RoyalBlue"
+                    Foreground="White" Background="#8538A6"
                     Margin="5, 10">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -48,7 +48,7 @@
             <Button x:Name="BtnProducts"
                     Grid.Column="1"
                     Content="제품" FontSize="16"
-                    Foreground="White" Background="LightSkyBlue"
+                    Foreground="White" Background="#D2BEE9"
                     Margin="5, 10">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -63,7 +63,7 @@
             <Button x:Name="BtnBookOut"
                     Grid.Column="2"
                     Content="출고" FontSize="16"
-                    Foreground="White" Background="DodgerBlue"
+                    Foreground="White" Background="#7571D0"
                     Margin="5, 10">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -78,8 +78,8 @@
             <Button x:Name="BtnStore"
                     Grid.Column="3"
                     Content="창고" FontSize="16"
-                    Foreground="White" Background="CadetBlue"
-                    Margin="5, 10">
+                    Foreground="White" Background="#9A7DD4"
+                    Margin="5, 10" Click="BtnStore_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -93,7 +93,7 @@
             <Button x:Name="BtnSetting"
                     Grid.Column="4"
                     Content="설정" FontSize="16"
-                    Foreground="White" Background="MidnightBlue"
+                    Foreground="White" Background="#BABCE8"
                     Margin="5, 10">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -108,7 +108,7 @@
             <Button x:Name="BtnUser"
                     Grid.Column="5"
                     Content="사용자" FontSize="16"
-                    Foreground="White" Background="LightSteelBlue"
+                    Foreground="White" Background="#9994DB"
                     Margin="5, 10" Click="BtnUser_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -123,7 +123,7 @@
             <Button x:Name="BtnAccount"
                     Grid.Column="6"
                     Content="계정" FontSize="16"
-                    Foreground="White" Background="CornflowerBlue"
+                    Foreground="White" Background="#9D6ACD"
                     Margin="5, 10" Click="BtnAccount_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -138,7 +138,7 @@
             <Button x:Name="BtnLogOut"
                     Grid.Column="7"
                     Content="로그아웃" FontSize="16"
-                    Foreground="White" Background="Gray"
+                    Foreground="White" Background="#4A0E73"
                     Margin="5, 10" Click="BtnLogOut_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>

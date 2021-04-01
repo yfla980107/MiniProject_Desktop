@@ -123,7 +123,7 @@
                     Orientation="Horizontal" HorizontalAlignment="Right">
             <Button x:Name="BtnUpdate"
                     Height="50" Width="120" Content="수정" FontSize="14"
-                    Background="#FFC2DABC" Foreground="White"
+                    Background="#7D6394" Foreground="White"
                     Margin="10, 0" Click="BtnUpdate_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
@@ -135,7 +135,7 @@
                 </Button.ContentTemplate>
             </Button>
             <Button x:Name="BtnBack"
-                    Background="#E0DFE5"
+                    Background="#A091B7"
                     Height="50" Width="120" Content="이전" FontSize="14" Click="BtnBack_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>

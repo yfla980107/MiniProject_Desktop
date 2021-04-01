@@ -29,7 +29,7 @@
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
             <Button x:Name="BtnLogin" FontSize="14"
                     Content="로그인" Margin="5" Width="100" Height="50"
-                    Background="#B1D1A6" Foreground="White" Click="BtnLogin_Click">
+                    Background="#7D6394" Foreground="White" Click="BtnLogin_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -41,7 +41,7 @@
             </Button>
             <Button x:Name="BtnCancel" FontSize="14"
                     Content="취소" Margin="5" Width="100" Height="50"
-                    Background="AliceBlue" Foreground="DarkSlateBlue" Click="BtnCancel_Click">
+                    Background="#FFF7F3F7" Foreground="#A08199" Click="BtnCancel_Click">
                 <Button.ContentTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
