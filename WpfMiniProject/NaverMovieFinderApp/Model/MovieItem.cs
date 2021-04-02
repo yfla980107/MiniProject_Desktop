@@ -11,13 +11,13 @@
         public string Actor { get; set; }
         public string UserRating { get; set; }
 
-        public MovieItem(string title, string link, string image, string subTitle,
+        public MovieItem(string title, string link, string image, string subtitle,
                         string pubDate, string director, string actor, string userRating)
         {
             Title = title;
             Link = link;
             Image = image;
-            SubTitle = subTitle;
+            SubTitle = subtitle;
             PubDate = pubDate;
             Director = director;
             Actor = actor;
