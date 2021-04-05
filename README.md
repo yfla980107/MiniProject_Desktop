@@ -3,6 +3,7 @@
 ___
 ## Movie Finder App
 > API를 사용하여 만든 영화탐색 프로그램<br>
+
 :white_check_mark: C# <br>
 :white_check_mark: Naver API, Youtube API<br>
 :arrow_right: [Program code](https://github.com/yfla980107/MiniProject_Desktop/tree/main/WpfMiniProject/NaverMovieFinderApp)
